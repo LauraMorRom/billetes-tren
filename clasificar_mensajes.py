@@ -45,10 +45,10 @@ def print_results(message, is_venta, origin, destiny, price):
 
     def print_line(dato, etiqueta, calculado):
         if etiqueta:
-            print(u"\t\t%-8s\t%-8s\t%-8s\t%s" % (dato, etiqueta, calculado, 'ok' if data_is_venta==is_venta else 'no'))
+            print(u"\t\t%-8s\t%-8s\t%-8s\t%s" % (dato, etiqueta, calculado, 'ok' if etiqueta==calculado else 'no'))
         else:
             print(u"\t\t%-8s\t%-8s\t%-8s\t%s" % (dato, '--', calculado or '--', 'ok'))
-        return data_is_venta==is_venta
+        return etiqueta==calculado
 
     ok = print_line('is_venta', data_is_venta, is_venta)
     print_line('origen', data_origin, origin)
