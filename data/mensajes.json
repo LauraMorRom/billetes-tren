@@ -1,0 +1,20 @@
+{
+    "messages": [
+        {
+            "texto": "Vendo billete Madrid-Alicante para este sábado: 12.35€",
+            "is_venta": true,
+            "origen": "Madrid",
+            "destino": "Alicante",
+            "precio": "12.35"
+        },
+        {
+            "texto": "Vendo billete Madrid a Alicante. Tlf.: 555235689",
+            "is_venta": true,
+            "origen": "Madrid",
+            "destino": "Alicante"
+        },
+        {
+            "texto": "Yo no ofrezco ningún billete a ningún sitio"
+        }
+    ]
+}
