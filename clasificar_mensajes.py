@@ -51,9 +51,9 @@ def print_results(message, is_venta, origin, destiny, price):
         return etiqueta==calculado
 
     ok = print_line('is_venta', data_is_venta, is_venta)
-    print_line('origen', data_origin, origin)
-    print_line('destino', data_destiny, destiny)
-    print_line('precio', data_price, price)
+    print_line('ciudad de origen', data_origin, origin)
+    print_line('ciudad de destino', data_destiny, destiny)
+    print_line('precio del billete', data_price, price)
     print(u"\n")
     return ok
 
